@@ -1,0 +1,384 @@
+
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+/**********nav****************/
+nav{
+    z-index: 999;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.home{ 
+    color: #f25454;
+    font-weight: 700;
+} 
+
+.nav-icon:hover{
+    color: #f25454;
+}
+
+
+
+
+
+.nav-item :hover .active{
+    color: #f25454;
+}
+/****************home****************/
+.after-nav{
+    height:75%;
+    
+}
+
+.carousel-item .great{
+    top: 30%;
+    left: 32%;
+    right: 32%;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+}
+.carousel-item .strategy{
+    top: 30%;
+    left: 30%;
+    right: 30%;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+}
+.carousel-item .advanced{
+    top: 30%;
+    left: 25%;
+    right: 25%;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.after-nav ,.carousel-inner{
+    height: 720px;
+}
+
+ /********fixed setting*******************/
+
+.settings{
+    width: 50px;
+    height: 50px;
+    background-color: #1f2528;
+    top: 20%;
+    left: 0;
+  transition: all 1s;
+}
+.settings:hover{
+    background-color: #444;
+    opacity: 0.7;
+}
+.settings i{
+    color: blanchedalmond;
+}
+
+.left , .right{
+width: 60px;
+height: 60px;
+ 
+}
+
+
+/***************** right and left *********************/
+.larea {
+    width: 60px;
+    height: 60px;
+    transition:all 0.3s ;
+    right: 400px;
+    top: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.left:hover .larea{
+    visibility: visible;
+    left: 0px;
+    right:0px;
+    top: 0;
+
+}
+.rarea{
+    width: 60px;
+    height: 60px;
+    transition: all 0.3s ;
+     top: 60px;
+    right: 200px;
+    overflow: hidden;
+    visibility: hidden;
+}
+.right:hover .rarea{
+    
+    visibility: visible;
+   left: 0;
+    right: 0px;
+    top: 60px;
+  
+}
+.left:hover i{
+    color: #f25454;
+}
+
+
+.right:hover i{
+   color: #f25454;
+}
+
+
+.pull{
+    width: 25px;
+    height: 50px;
+    z-index: 11111;
+    border-radius: 13px;
+}
+.up{
+    width: 10px;
+    height: 10px;
+    animation: magic 1.7s infinite ease;
+}
+.cover{
+    height:1px;
+}
+@keyframes magic{
+
+ 0% {
+top: 6px;
+opacity: 0;  
+
+}
+  30% {
+    opacity:1;
+  }
+  100% {
+  top:40px;
+  opacity:0;
+  }
+
+
+}
+
+.after-about{
+    padding: 100px 15px;
+}
+
+ .abouta{
+    font-size: 4rem;
+    opacity: 0.1;
+    transform: translate(-10px,-13px);
+    font-weight:800;
+   
+}
+.about-us{
+ font-size: 40px;
+ font-weight: 700;
+}
+.line{
+    height: 0.5px;
+    width:60px;
+    margin-top: 45px;
+    transition: width 0.5s ease-in-out;
+}
+.all:hover .line {
+
+  width:80px ;
+}
+
+.aboutp{
+    font-size: 18px;
+padding-top: 20px;
+padding-bottom: 70px;
+
+}
+
+.aboutp p  {
+   color: #999;
+
+
+}
+.art ,.service-p , .contact-p{
+    color: #666;
+}
+
+.progress{
+    height: 5px;
+}
+.progress-bar{
+    background-color: #f25454;
+}
+
+
+.team-area{
+    background-color: #f25454;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out;
+    visibility: hidden;
+}
+.up-img{
+
+    transition: transform 1s ease-in-out;
+    overflow: hidden;
+}
+
+.up-img img{
+    transition: all 0.5s ease-in-out;
+}
+.up-img:hover .team-area{
+    visibility: visible;
+    opacity: 0.7;
+}
+.up-img:hover img {
+   transform: scale(1.2); 
+}
+.under-team h5{
+    transition: all 0.3s ease-in-out;
+}
+.under-team h5:hover{
+    color: #f25454;
+}
+.btn{
+    background-color: #f25454;
+}
+.ideas .under-ideas{
+padding-top: 100px;
+}
+
+
+
+
+.laptop{
+    color: #f25454;
+    font-size: 32px;
+}
+
+.under-art{
+    transition: color 0.3s ease-in-out;
+}
+.service-art:hover .under-art{
+    color: #f25454;
+}
+
+/**************************** client reviews  *************************************/
+.client-p{
+    font-size: 25px;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+    color: #666;
+    width: 50%;
+}
+.client-group{
+    width: 65%;
+    margin: auto;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+.hooli{
+    color: #666;
+}
+/**********************contact********************************/
+
+.answer-h3{
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.map{
+    font-size: 40px;
+    color: #f25454;
+}
+
+.address{
+    border-bottom: 1px ridge;
+}
+
+
+.contact-h4{
+    transition: color 0.3s ease-in-out;
+}
+.address:hover .contact-h4{
+    color: #f25454;
+}
+.space-up-down{
+    padding: 15px 0;
+}
+
+input, textarea {
+    color: #a6a6a6;
+    border: 2px solid #eee;
+    background-color: #fff;
+    transition: border-color 0.15s ease-in;}
+
+/************************footer***********************************/
+footer{
+     background: #222;
+    
+   position: relative;
+}
+.after-footer{
+    /* background: rgba(34, 34, 34 ,0.5); */
+    background-image: url(../images/dotted-map.png);
+}
+.con1{
+    padding: 60px 0;
+    line-height: 1.75em;
+}
+.con1-p{
+    color: #b0b0b0;
+}
+.con1-email{
+    transition: color 0.3s ease-in-out;
+}
+.con1-email:hover{
+    color: #f25454;
+}
+.btn-web{
+    color: #b0b0b0;
+    background: transparent;
+    border: 1px solid #b0b0b0;
+}
+
+.lang-btn:hover{
+    color: #f25454;
+    border-color: #f25454;
+}
+.last-part{
+    background-color: #1a1a1a;
+}.last-part .container{
+    padding: 30px 0;
+}
+.copyright{
+    color: #b0b0b0;
+}
+.footer-up{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: -15px;
+}
+
+.fa-chevron-circle-up{
+    color: rgba(242, 84, 84, 0.5);
+    transition: color 0.3s ease-in-out;
+
+   
+}
+.logo img{
+    margin-top: 40px;
+}
+.fa-chevron-circle-up:hover{
+    color: #f25454;
+
+}
+    
